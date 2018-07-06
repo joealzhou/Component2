@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.0.1",
+  "iOS" : [
+    {
+      "name" : "ZQMediator",
+      "hash" : "2cd2741dfa04bad488c4bc3a470bdf70bcc555199ea93c987351f2f9fdbd5843"
+    }
+  ]
+}

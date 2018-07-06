@@ -1,0 +1,18 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "0.0.1",
+  "iOS" : [
+    {
+      "name" : "ZQUIKit",
+      "hash" : "958722740a05d4e6c8f6d053ec890b98371bbe19b69332569f863d20892917ae"
+    }
+  ]
+}
