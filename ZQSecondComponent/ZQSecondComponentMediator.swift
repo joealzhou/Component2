@@ -13,7 +13,9 @@ fileprivate let ZQTargetName = "SecondComponentUtils"
 fileprivate let ZQActionName = "secondMainVCWithParams:"
 extension ZQMediator {
     public func mediatorSecondComponentMainVC() -> UIViewController? {
-        let result = perform(nameSpace: ZQComponentName, target: ZQTargetName, action: ZQActionName, params: ["title" : "secondVC"])
-        return result as? UIViewController
+        
+//        let result = perform(nameSpace: ZQComponentName, target: ZQTargetName, action: ZQActionName, params: ["title" : "secondVC"])
+        let result = SecondComponentUtils().secondMainVC(params: ["title" : "secondVC"])
+        return result
     }
 }
